@@ -1,7 +1,5 @@
 'use client'
-import { useEffect, useState } from 'react'
-import { supabase } from '../lib/supabase' // Pastikan path ini benar sesuai lokasi folder lib Anda
-
+import { supabase } from '../lib/supabase'
 export default function Home() {
   const [valves, setValves] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
